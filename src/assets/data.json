@@ -1,0 +1,59 @@
+{
+    "projects": [
+        {
+            "date": "01/01/2023",
+            "title": "VIDEO HUB",
+            "description": "Video-hub offers an enjoyable experience for users seeking to consume or share video content.",
+            "url": "https://video-hub-five.vercel.app",
+            "imgSrc": "https://cdn.pixabay.com/photo/2016/11/21/12/51/mobile-phone-1845233__340.jpg"
+        },
+        {
+            "date": "10/01/2023",
+            "title": "CoinDekho",
+            "description": "CoinDekho is a Web application you can see cryptocurrency prices, coins, exchanges, and other relevant information.",
+            "url": "https://coindekho-pied.vercel.app",
+            "imgSrc": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9cb6_udTvOk8hgMtB_vHXjjLUoXRjkIWD5Q&usqp=CAU"
+        },
+        {
+            "date": "17/01/2023",
+            "title": "E-commerce CART",
+            "description": "A cart management system using React and Redux is a web application that allows users to add items to a shopping cart and manage their purchases.",
+            "url": "https://cart-management-system.vercel.app",
+            "imgSrc": "https://cdn.pixabay.com/photo/2019/12/14/08/36/shopping-4694470_960_720.jpg"
+        },
+        {
+            "date": "20/01/2023",
+            "title": "Mi-Store Clone",
+            "description": "Developed a clone of Mi-Store using React and Tailwind CSS. ",
+            "url": "https://mistroeclonebysukomal.netlify.app",
+            "imgSrc": "https://i03.appmifile.com/i18n/share/default.jpg"
+        },
+        {
+            "date": "26/02/2023",
+            "title": "PORTFOLIO",
+            "description": "This is my Protfolio Using React and FireBase.",
+            "url": "/",
+            "imgSrc": "https://cdn.pixabay.com/photo/2020/03/19/21/25/cactus-4948833_960_720.jpg"
+        }
+    ],
+    "Experience":[
+        {
+            "title":"Java"
+        },
+        {
+            "title":"C++"
+        },
+        {
+            "title":"Node.Js"
+        },
+        {
+            "title":"React.Js"
+        },
+        {
+            "title":"MongoDb"
+        },
+        {
+            "title":"Git"
+        }
+    ]
+}

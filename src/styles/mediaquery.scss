@@ -1,0 +1,328 @@
+@media screen and (max-width:1367px) {
+    nav{
+        padding: 0 $p_md;
+    }
+    #home{
+        height: 100vh;
+        >section{
+            &:first-of-type{
+                padding-left: $p_md;
+                >div{
+                    >aside{
+                        width: 85%;
+                    }
+                }
+            }
+            &:last-of-type{
+                justify-content: space-evenly;
+            }
+        }
+        >svg{
+            bottom: 0;
+        }
+    }
+    #work{
+        padding: 7rem $p_md;
+        height: 90vh;
+        margin-top: 0;
+        >section{
+            >article{
+                height: 20rem;
+                width: 90%;
+            }
+            .workItem{
+                padding: 2rem;
+                height: 20rem;
+                >aside{
+                    >p{
+                        margin: 1rem;
+                    }
+                    >a{
+                        margin: 1rem;
+                    }
+                }
+            }
+        }
+    }
+    
+    #services{
+        // padding: $p_md;
+        margin-top: 6rem;
+        >section{
+            height: 50%;
+        }
+    }
+    #contact{
+        >section{
+            >form{
+                >input , >button{
+                    font: 400 0.8rem $text1;
+                    width: 70%;
+                }
+            }
+        }
+    }
+    footer{
+        padding-left: $p_md;
+        >div{
+            width: 93%;
+        }
+    }
+}
+
+@media screen and (max-width:1100px) {
+    nav{
+        padding: 0 $p_base;
+    }
+    #home{
+        height: 110vh;
+        >section{
+            &:first-of-type{
+                padding-left: $p_base;
+                >div{
+                    >h1{
+                        font: 900 3rem $text1;
+                    }
+                    >aside{
+                        width: 100%;
+                    }
+                }
+            }
+            &:last-of-type{
+                justify-content: space-evenly;
+            }
+        }
+        >svg{
+            bottom: 0;
+        }
+    }
+    #work{
+        padding: 7rem $p_base;
+        // height: 115vh;
+    }
+    
+    #services{
+        padding: $p_base_inverse;
+        text-align: center;
+    }
+}
+@media screen and (max-width:900px) {
+    nav{
+        padding: 0 $p_sm;
+        >h2{
+            font-size: 1.8rem;
+        }
+        >div{
+            gap: 2rem;
+        }
+    }
+    #home{
+        >section{
+            &:first-of-type{
+                padding-left: $p_sm;
+                >div{
+                    gap: 2rem;
+                    width: 100%;
+                    
+                }
+            }
+            &:last-of-type{
+                justify-content: space-evenly;
+            }
+        }
+        >svg{
+            bottom: 0;
+        }
+    }
+    #work{
+        padding: 0rem $p_zero;
+        >section{
+            height: 60%;
+        }
+    }
+    #experience{
+        top: 0;
+    }
+    #services{
+        padding: $p_sm_inverse;
+        height: 90vh;
+    }
+    #contact{
+        >section{
+            >form{
+                >h2{
+                    font: 100 2.3rem $text2;
+                }
+                >input , >button{
+                    font: 400 0.8rem $text1;
+                    width: 70%;
+                }
+            }
+        }
+    }
+    footer{
+        padding-left: $p_zero;
+        >div{
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width:786px) {
+    nav{
+        >div,>a{
+            display: none;
+        }
+        
+    }
+    .navbtn{
+        display: block;
+    }
+    
+    #services{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #home{
+    height: unset;
+    flex-direction: column-reverse;
+    >section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        &:first-of-type{
+            >div{
+                border: none;
+                padding-top: 3rem;
+                >h1{
+                    font: 700 2.5rem $text1;
+                    // margin: 2rem 0;
+                }
+                >div{
+                    flex-direction: column;
+                }
+                >aside{
+                    align-items: center;
+                    justify-content: center;
+                    >article::after{
+                        left: 0;
+                    }
+                }
+                
+                artical[data-special]{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    
+                }
+            }
+        }
+        &:last-of-type{
+            border: none;
+            margin-top: 1rem;
+        }
+    }
+    >svg{
+        font-size: 2rem;
+        bottom: 1rem;
+    }
+    }
+    #work{
+        margin-top: 2.5rem;
+        height: 85vh;
+        >section{
+            >article{
+                width: 100%;
+                height: 30vmax;
+            }
+        
+        .workItem{
+            height: 35vmax;
+            width: 100%;
+            display: grid;
+            justify-items: center;
+            text-align: center;
+            padding: 1rem;
+            >img{
+                width: 50%;
+            }
+            >aside{
+                padding: 0rem;
+                >h3{
+                    margin: 0rem;
+                    font: 600 1.5rem $text1;
+                }
+                >p{
+                    display: none;
+                }
+                >a{
+                    padding: 0.4rem 1.5rem;
+                    font-size: 1rem;
+                    margin: 1rem;
+                }
+            }
+        }
+    }
+    }
+    #experience{
+        .timelineItem{
+            // width: 61%;
+            padding: 1.5rem;
+            >div{
+                padding: 20px 15px;
+            }
+            &:nth-child(even){
+                text-align: unset;
+            }
+            &::after{
+                top: 45px;
+            }
+        }
+        
+        // .leftTimeline{
+        //     left: -6px;
+        // }
+        
+    }
+    #services{
+        // margin-top: 0;
+        padding: 5vmax 0;
+        >section{
+            margin:6rem 0rem ;
+            gap: 1rem;
+            height: 45%;
+        }
+    }
+    #contact{
+        grid-template-columns: 1fr;
+        >aside{
+            display: none;
+        }
+    }
+    footer{
+        grid-template-columns: 1fr 1fr;
+        padding-left: $p_zero;
+        >div{
+            >h2{
+                margin: 1rem 0;
+                font-weight: 500;
+            }
+        }
+        >aside{
+            margin-right: 0;
+            >article{
+                >a{
+                    margin: 0 -0.5rem;
+                }
+            }
+        }
+        >a{
+            display: none;
+        }
+    }
+}
