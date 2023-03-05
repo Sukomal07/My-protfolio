@@ -1,6 +1,13 @@
 {
     "projects": [
         {
+            "date":"05/03/2023",
+            "title":"Colour-Generator",
+            "description":"Generate Random ui gradients",
+            "url":"https://colour-generator-nu.vercel.app/",
+            "imgSrc":"https://www.linkpicture.com/q/colour-generator.png"
+        },
+        {
             "date": "01/01/2023",
             "title": "VIDEO HUB",
             "description": "Video-hub offers an enjoyable experience for users seeking to consume or share video content.",

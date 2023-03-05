@@ -8,7 +8,7 @@ const Work = () => {
       <h2>Work</h2>
       <section>
         <article>
-          <Carousel showArrows showIndicators showThumbs={false} showStatus={false} infiniteLoop interval={3000}  >
+          <Carousel showArrows showIndicators showThumbs={false} showStatus={false} infiniteLoop interval={3000} autoPlay  >
           {
             data.projects.map(i =>(
               <div key={i.title} className="workItem">
