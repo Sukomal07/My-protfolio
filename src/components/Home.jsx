@@ -49,7 +49,7 @@ const Home = () => {
                         wrapperClassName: "typewriterpara"
                     }} />
                     <div>
-                        <a href='.\assets\Sukomal_Dutta_Resume.pdf' download={true}>Resume</a>
+                        <a href='https://drive.google.com/file/d/1V3-OGPuzL-MHa9NkfJONd0lQ5JlNya2y/view?usp=sharing'>Resume</a>
                         <a href="#work">Projects<BsArrowUpRight /></a>
                     </div>
                     <aside>
