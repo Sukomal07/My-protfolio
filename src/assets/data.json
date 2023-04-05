@@ -8,6 +8,13 @@
             "imgSrc":"https://www.linkpicture.com/q/colour-generator.png"
         },
         {
+            "date":"05/04/2023",
+            "title":"Todo-app",
+            "description":"create a mern todo-app",
+            "url":"https://todo-by-sukomal.vercel.app/",
+            "imgSrc":"https://www.linkpicture.com/q/Screenshot-34_11.png"
+        },
+        {
             "date": "01/01/2023",
             "title": "VIDEO HUB",
             "description": "Video-hub offers an enjoyable experience for users seeking to consume or share video content.",
